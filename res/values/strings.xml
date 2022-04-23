@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<resources>
+
+    <string name="app_name">JConsult 2º Grau</string>
+	<string name="cabecalho_tela_inicial">Consulta de Processos Judiciais 2º Grau</string>
+	<string name="cabecalho_tela_consulta">Processo: </string>
+	<string name="titulo_pesquisa">Pesquisar por:</string>
+	<string name="titulo_lista_processo">Filtro usado para consulta:</string>
+	<string name="nome_processo">Número do Processo</string>
+	<string name="nome_numero_unico">Numeração Única</string>
+	<string name="imagem_cabecalho_Description">Consulta Processual</string>
+	
+	
+	<!-- BOTÕES TELA INICIAL -->
+	<string name="botao_pesquisar">Pesquisar</string>
+	<string name="botao_limpar">Limpar</string>
+
+	<!-- BOTÕES DO MENU -->
+	<string name="menu_config">Configurações</string>
+	<string name="menu_sobre">Sobre</string>
+	
+	<!-- TELA DE PREFERENCIAS -->
+	<string name="preferencias_categoria1">Configurações de Conectividade</string>
+	<string name="preferencias_categoria2">Teste de conexão com o Web Service</string>
+	<string name="preferencias_categoria3">Sobre</string>
+	
+	<string name="preferencias_title_conexao">Protocolo de Conexão</string>
+	<string name="preferencias_sumary_conexao">Escolha o protolo utilizado para conexão</string>
+	<string name="preferencias_dialogTitle_conexao">Escolha o protocolo de conexão</string>
+	
+	<string name="preferencias_title_nome">Nome do Web Service</string>
+	<string name="preferencias_sumary_nome">Digite o nome do Web Service a ser acessado</string>
+	
+	<string name="preferencias_title_ip">IP/Domínio-Web Service</string>
+	<string name="preferencias_sumary_ip">Digite o IP/Domínio do Web Service. Ex:192.168.0.1/ServiveJconsult</string>
+	
+	<string name="preferencias_title_porta">Porta do Web Service</string>
+	<string name="preferencias_sumary_porta">Digite a Porta do Web Service. Ex:8082</string>	
+	
+	<string name="preferencias_title_botaoTestar">Testar</string>
+	<string name="preferencias_sumary_botaoTestar">Testar conexão</string>
+		
+	<string name="preferencias_title_botaoSobre">Versão: 0.8.3</string>
+	<string name="preferencias_sumary_botaoSobre">Por Luan Oliveira</string>
+	
+
+</resources>

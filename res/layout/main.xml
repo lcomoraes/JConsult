@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" 
+    android:background="@drawable/image_corpo">
+    
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/imagem_topo_titulo" 
+        android:contentDescription="@string/imagem_cabecalho_Description"
+        android:paddingBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/texto_pesquisa"
+        style="@style/estilo_subtitulo"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp"
+        android:text="@string/titulo_pesquisa"
+        />
+
+    <TextView
+        android:id="@+id/label_numero_processo"
+        style="@style/estilo_subtitulo"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/nome_processo" 
+        />
+
+    <EditText
+        android:id="@+id/edt_numero_processo"
+        style="@style/estilo_editText"
+        android:ems="25"
+        android:inputType="number" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_numero_unico"
+        style="@style/estilo_subtitulo"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/nome_numero_unico" />
+
+    <EditText
+        android:id="@+id/edt_numero_unico"
+        style="@style/estilo_editText"
+        android:ems="25"
+        android:inputType="number" >
+    </EditText>
+    
+    <!-- <br.com.jconsult.widgets.NumeroUnicoEditText
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        style="@style/estilo_editText" 
+        android:id="@+id/edt_numero_unico2"/> -->
+
+    <!-- <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/espacador_cinza"
+        android:paddingTop="0dp" /> -->
+    
+      
+		<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		    
+		    <ImageButton
+	        android:id="@+id/btn_limpar"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:contentDescription="@string/botao_limpar"
+	        android:src="@drawable/btn_limpar" />
+			    
+		    <ImageButton
+	        android:id="@+id/btn_pesquisar"
+	        android:layout_width="160dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/btn_pesquisar"
+	        android:contentDescription="@string/botao_pesquisar"/>
+	  </RelativeLayout>
+
+		   <!--  <TextView
+        android:id="@+id/texto_cabecalho"
+        style="@style/estilo_cabecalho"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/cabecalho_tela_inicial"  
+        android:textColor="@color/branco_gelo"       
+        android:layout_gravity="top"/> -->
+    
+      <!--  <TextView
+        android:id="@+id/texto_cabecalho"
+        style="@style/estilo_cabecalho"
+        android:paddingBottom="35dp"
+        android:paddingTop="20dp"
+        android:text=" "  
+        android:textColor="@color/branco_gelo"       
+        android:layout_gravity="top"
+        android:background="@drawable/image_topo"/>-->  
+
+			
+</LinearLayout>

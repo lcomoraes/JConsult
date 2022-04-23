@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    
+    <string-array name="protocolo">
+        <item>HTTP</item>
+        <item>HTTPS</item>
+    </string-array>
+    <string-array name="protocolo_value">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="estilo_botao" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#191970</item>
+    </style>
+    
+    <style name="estilo_cabecalho" >
+        <item name="android:textColor">@color/cinza_branco</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    
+    
+    <style name="estilo_subtitulo" >
+        <item name="android:textColor">@color/cinza_branco</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    
+    <style name="estilo_subtitulo_modificado" >
+        <item name="android:textColor">@color/cinza_branco</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    
+    <style name="estilo_mostraProcesso" >
+        <item name="android:textColor">@color/cinza_branco</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    
+    <style name="estilo_label" >
+        <item name="android:textColor">@color/cinza_branco</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    
+     <style name="estilo_editText" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    
+</resources>

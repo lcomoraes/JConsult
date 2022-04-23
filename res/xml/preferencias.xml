@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+   <PreferenceCategory android:title="@string/preferencias_categoria1">
+       
+    	<EditTextPreference 
+        android:key="nomeServico"
+        android:title="@string/preferencias_title_nome"
+        android:summary="@string/preferencias_sumary_nome"/>   
+       
+    	<ListPreference
+        android:key="protoloco"
+        android:title="@string/preferencias_title_conexao"
+        android:summary="@string/preferencias_sumary_conexao"
+        android:entries="@array/protocolo"
+        android:entryValues="@array/protocolo_value"
+        android:dialogTitle="@string/preferencias_dialogTitle_conexao" />
+    	  	
+    	<EditTextPreference 
+        android:key="ip"
+        android:title="@string/preferencias_title_ip"
+        android:summary="@string/preferencias_sumary_ip"/>
+    	
+    	<EditTextPreference 
+        android:key="porta"
+        android:title="@string/preferencias_title_porta"
+        android:summary="@string/preferencias_sumary_porta"/>
+    	
+  </PreferenceCategory>    
+  <PreferenceCategory android:title="@string/preferencias_categoria2">  
+    	
+    	<Preference
+        android:key="botao_teste"
+        android:title="@string/preferencias_title_botaoTestar"
+        android:summary="@string/preferencias_sumary_botaoTestar"/>
+    	
+  </PreferenceCategory>    
+  <PreferenceCategory android:title="@string/preferencias_categoria3">  
+    	
+    	<Preference
+        android:key="botaoSobre"
+        android:title="@string/preferencias_title_botaoSobre"
+        android:summary="@string/preferencias_sumary_botaoSobre"/>
+  
+  </PreferenceCategory>   
+    
+</PreferenceScreen>

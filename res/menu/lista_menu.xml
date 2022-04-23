@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/menu_configuracao"
+        android:title="@string/menu_config"
+        android:icon="@drawable/ic_config"
+        />    
+    <item 
+        android:id="@+id/menu_sobre"
+        android:title="@string/menu_sobre"
+        android:icon="@drawable/ic_infor"/>
+    
+</menu>

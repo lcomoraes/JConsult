@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ 
+    <color name="azul_ceu">#4069e1</color>
+    <color name="branco_gelo">#F8F8FF</color>
+    <color name="azul_forte">#191970</color> 
+    <color name="cinza_claro">#DCDCDC</color> 
+    <color name="cinza_escuro">#363636</color>
+    <color name="cinza_branco">#F0EDED</color>
+      
+</resources>

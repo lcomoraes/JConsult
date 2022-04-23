@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image_corpo">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+		android:layout_height="75dp"
+    	android:background="@drawable/imagem_cabecalho">
+
+    	<TextView
+    	    android:id="@+id/texto_pesquisa"
+    	    style="@style/estilo_subtitulo_modificado"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="35dp"
+    	    android:paddingTop="10dp"
+    	    android:text="@string/titulo_lista_processo" />
+
+    	<TextView
+    	    android:id="@+id/textMostraNumeroPesquisado"
+    	    style="@style/estilo_subtitulo_modificado"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="35dp"
+    	    android:paddingTop="3dp"
+    	    android:layout_below="@+id/texto_pesquisa"
+    	    android:text="(MostraNumeroConsultado)" />
+    	
+    </RelativeLayout>
+    	
+    	<TextView
+   	    android:id="@+id/textTituloMostraProcesso"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/cabecalho_tela_consulta" 
+   	    android:textColor="@color/cinza_branco"
+   	    android:textSize="17sp"
+   	    android:textStyle="bold"
+   	    />
+
+    	<TextView
+   	    android:id="@+id/textMostraPesquisa"
+   	    style="@style/estilo_mostraProcesso"
+   	    android:paddingBottom="0dp"
+   	    android:paddingTop="10dp"
+   	    android:text="(MostraProcesso)" />
+    	
+</LinearLayout>
